@@ -177,19 +177,17 @@ body {
   color: var(--accent-color);
 }
 
-.main-nav {
+/* .main-nav {
   display: flex;
   align-items: center;
-}
+} */
 
-header {
+/* .header-wrap {
+  display: flex;
+  align-items: center;
+
   border-bottom: 1px solid #ececec;
-}
-
-.header-wrap {
-  display: flex;
-  align-items: center;
-}
+} */
 
 .address,
 .footer-logo {
@@ -403,7 +401,8 @@ footer {
   overflow: hidden;
 }
 
-.section:nth-child(3) {
+.section.benefits,
+.section.gallery {
   padding-top: 94px;
 }
 .section {
