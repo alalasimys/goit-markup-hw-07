@@ -42,7 +42,7 @@
     background-color: $accent-color;
     border-radius: 2px;
     transform: scale(0);
-    @include transition(transform);
+    @include transition($type: transform);
   }
 
   &.current {

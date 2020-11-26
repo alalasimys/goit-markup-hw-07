@@ -135,9 +135,9 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } */
 
-.text {
+/* .text {
   color: var(--primary-text-color);
-}
+} */
 
 /* .contacts {
   display: flex;
@@ -385,7 +385,7 @@ footer {
   background-position: center;
 } */
 
-.benefits .visually-hidden,
+/* .benefits .visually-hidden, */
 .gallery .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -397,15 +397,15 @@ footer {
   overflow: hidden;
 }
 
-.section.benefits,
+/* .section.benefits, */
 .section.gallery {
   padding-top: 94px;
 }
-.section {
+/* .section {
   padding-bottom: 94px;
-}
+} */
 
-.benefit-title {
+/* .benefit-title {
   margin-bottom: 10px;
   margin-top: 30px;
 
@@ -414,30 +414,30 @@ footer {
   line-height: 1.142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
+} */
 
-.benefit-text {
+/* .benefit-text {
   margin-bottom: 0;
 
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-}
+} */
 
-.benefit-list {
+/* .benefit-list {
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
-.benefit-list > .item {
+/* .benefit-list > .item {
   width: calc((100% - 90px) / 4);
 }
 
 .benefit-list .item + .item {
   margin-left: 30px;
-}
+} */
 
-.benefit-item::before {
+/* .benefit-item::before {
   display: block;
   height: 120px;
   content: "";
@@ -448,9 +448,9 @@ footer {
   background-size: 70px 70px;
 
   border-radius: 4px;
-}
+} */
 
-.icon-details::before {
+/* .icon-details::before {
   background-image: url("../images/antena.png");
 }
 
@@ -464,7 +464,7 @@ footer {
 
 .icon-technology::before {
   background-image: url("../images/astronaut.png");
-}
+} */
 
 .work-item {
   position: relative;
@@ -927,7 +927,7 @@ footer {
   color: rgba(117, 117, 117, 0.5);
 } */
 
-.checkbox-label {
+/* .checkbox-label {
   display: inline-flex;
   align-items: center;
   font-size: 14px;
@@ -937,28 +937,28 @@ footer {
   margin-bottom: 30px;
 
   color: var(--primary-text-color);
-}
+} */
 
-.checkbox-link {
+/* .checkbox-link {
   display: inline-block;
 
   margin-left: 5px;
   color: var(--accent-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.checkbox-link:hover,
+/* .checkbox-link:hover,
 .checkbox-link:focus {
   color: #1b78c4;
-}
+} */
 
-.custom-checkbox {
+/* .custom-checkbox {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   position: absolute;
-}
-.icon {
+} */
+/* .icon {
   display: inline-block;
   width: 16px;
   height: 15px;
@@ -969,16 +969,16 @@ footer {
   background-color: transparent;
 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.custom-checkbox:checked + .icon {
+/* .custom-checkbox:checked + .icon {
   border-color: transparent;
   background-image: url("../images/icon_check.svg");
   background-size: contain;
   background-origin: border-box;
-}
+} */
 
-.form-button {
+/* .form-button {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -986,10 +986,10 @@ footer {
   padding-left: 54px;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
 
-.form-button:hover,
+/* .form-button:hover,
 .form-button:focus {
   background-color: #188ce8;
   cursor: pointer;
-}
+} */
