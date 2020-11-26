@@ -602,21 +602,21 @@ body {
   border-radius: 50%;
 }
 
-.team .social-link:hover,
-.team .social-link:focus {
-  background-color: #2196f3;
-}
-
 .team .social-link {
   background-color: #ffffff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .join-us .social-link {
-  fill: #ffffff;
   background-color: rgba(255, 255, 255, 0.1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team .social-link:hover,
+.team .social-link:focus,
+.join-us .social-link:hover,
+.join-us .social-link:focus {
+  background-color: #2196f3;
 }
 
 .social-icon {
@@ -625,6 +625,10 @@ body {
 
 .social-link:hover .social-icon,
 .social-link:focus .social-icon {
+  fill: #ffffff;
+}
+
+.join-us .social-icon {
   fill: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
