@@ -1,4 +1,4 @@
-.navigation-link, .logo, .contacts-link, .social-link {
+.navigation-link, .logo, .contacts-link, .customer-link, .social-link {
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -628,6 +628,10 @@ body {
   align-items: none;
 }
 
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
 .social-link {
   display: flex;
   justify-content: center;
@@ -665,5 +669,11 @@ body {
 
 .join-us .social-icon {
   fill: #ffffff;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 /*# sourceMappingURL=main.css.map */

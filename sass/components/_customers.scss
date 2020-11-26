@@ -17,6 +17,7 @@
 
 .customer-link {
   @include centeredFlex();
+  @extend %link;
   width: 170px;
   height: 90px;
 

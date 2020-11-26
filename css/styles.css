@@ -638,11 +638,11 @@ footer {
   margin-bottom: 16px;
 } */
 
-.flex {
+/* .flex {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-}
+} */
 
 .filter-button {
   display: inline-block;
