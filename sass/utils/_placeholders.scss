@@ -51,6 +51,7 @@
 
 %section {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 %title {
@@ -59,6 +60,13 @@
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+%teamFont {
+  font-size: 16px;
+  line-height: 1.1875;
   text-align: center;
   letter-spacing: 0.03em;
 }
