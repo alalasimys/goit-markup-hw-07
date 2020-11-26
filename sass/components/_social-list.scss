@@ -3,6 +3,10 @@
   @extend %list;
 }
 
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
 .social-link {
   @include centeredFlex();
   @extend %link;
