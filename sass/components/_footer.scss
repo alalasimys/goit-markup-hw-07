@@ -1,3 +1,48 @@
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: $bg-dark;
+}
+
+.footer-flex {
   @include centeredFlex($type: space-between, $value: baseline);
+}
+
+.footer-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-wrap {
+  margin-right: 70px;
+}
+
+.address {
+  @extend %link;
+  display: inline-block;
+
+  margin-bottom: 9px;
+
+  font-style: normal;
+  color: $white;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.footer-contact {
+  @extend %link;
+  color: $footer-contact-color;
+
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
