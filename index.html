@@ -59,86 +59,84 @@
     <main>
       <!--Hero-->
       <section class="hero">
-        <div class="">
-          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button class="button hero-button" type="button" data-modal-open>
-            Заказать услугу
-          </button>
-          <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-              <button type="button" class="close-modal" data-modal-close>
-                <img src="./images/close-button.svg" alt="Закрыть окно" />
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <button class="hero-button" type="button" data-modal-open>
+          Заказать услугу
+        </button>
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button type="button" class="close-modal" data-modal-close>
+              <img src="./images/close-button.svg" alt="Закрыть окно" />
+            </button>
+
+            <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
+            <form class="recall-form">
+              <div class="form-field">
+                <label for="name" class="form-label">Имя</label>
+                <input
+                  id="name"
+                  class="form-input"
+                  type="text"
+                  name="name"
+                  placeholder=" "
+                  required
+                />
+                <svg class="input-icon" width="18" height="18">
+                  <use href="./images/sprite.svg#icon-name"></use>
+                </svg>
+              </div>
+
+              <div class="form-field">
+                <label for="tel" class="form-label">Телефон</label>
+                <input
+                  id="tel"
+                  class="form-input"
+                  type="tel"
+                  name="tel"
+                  placeholder=" "
+                  required
+                />
+                <svg class="input-icon" width="18" height="18">
+                  <use href="./images/sprite.svg#icon-phone"></use>
+                </svg>
+              </div>
+
+              <div class="form-field">
+                <label for="email" class="form-label">Почта</label>
+                <input
+                  id="email"
+                  class="form-input"
+                  type="email"
+                  name="email"
+                  placeholder=" "
+                  required
+                />
+                <svg class="input-icon" width="18" height="18">
+                  <use href="./images/sprite.svg#icon-email"></use>
+                </svg>
+              </div>
+
+              <div class="form-field">
+                <label for="comment" class="form-label">Комментарий</label>
+                <textarea
+                  id="comment"
+                  class="form-comment"
+                  name="comment"
+                  placeholder="Введите текст"
+                ></textarea>
+              </div>
+
+              <label class="checkbox-label">
+                <input class="custom-checkbox" type="checkbox" />
+                <span class="icon"></span>
+                Соглашаюсь с рассылкой и принимаю
+                <a class="checkbox-link" href="">Условия договора</a>
+              </label>
+
+              <button class="button form-button" type="submit">
+                Отправить
               </button>
-
-              <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
-              <form class="recall-form">
-                <div class="form-field">
-                  <label for="name" class="form-label">Имя</label>
-                  <input
-                    id="name"
-                    class="form-input"
-                    type="text"
-                    name="name"
-                    placeholder=" "
-                    required
-                  />
-                  <svg class="input-icon" width="18" height="18">
-                    <use href="./images/sprite.svg#icon-name"></use>
-                  </svg>
-                </div>
-
-                <div class="form-field">
-                  <label for="tel" class="form-label">Телефон</label>
-                  <input
-                    id="tel"
-                    class="form-input"
-                    type="tel"
-                    name="tel"
-                    placeholder=" "
-                    required
-                  />
-                  <svg class="input-icon" width="18" height="18">
-                    <use href="./images/sprite.svg#icon-phone"></use>
-                  </svg>
-                </div>
-
-                <div class="form-field">
-                  <label for="email" class="form-label">Почта</label>
-                  <input
-                    id="email"
-                    class="form-input"
-                    type="email"
-                    name="email"
-                    placeholder=" "
-                    required
-                  />
-                  <svg class="input-icon" width="18" height="18">
-                    <use href="./images/sprite.svg#icon-email"></use>
-                  </svg>
-                </div>
-
-                <div class="form-field">
-                  <label for="comment" class="form-label">Комментарий</label>
-                  <textarea
-                    id="comment"
-                    class="form-comment"
-                    name="comment"
-                    placeholder="Введите текст"
-                  ></textarea>
-                </div>
-
-                <label class="checkbox-label">
-                  <input class="custom-checkbox" type="checkbox" />
-                  <span class="icon"></span>
-                  Соглашаюсь с рассылкой и принимаю
-                  <a class="checkbox-link" href="">Условия договора</a>
-                </label>
-
-                <button class="button form-button" type="submit">
-                  Отправить
-                </button>
-              </form>
-            </div>
+            </form>
           </div>
         </div>
       </section>
