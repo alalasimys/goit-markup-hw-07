@@ -42,8 +42,8 @@ img {
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--title-text-color);
-  background-color: var(--white);
+  color: #212121;
+  background-color: #ffffff;
 }
 
 .container {

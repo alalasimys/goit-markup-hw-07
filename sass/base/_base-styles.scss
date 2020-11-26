@@ -27,10 +27,10 @@ img {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  color: var(--title-text-color);
+  font-family: $mainFont;
+  color: $title-text-color;
 
-  background-color: var(--white);
+  background-color: $white;
 }
 
 .container {

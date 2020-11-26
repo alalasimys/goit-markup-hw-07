@@ -466,12 +466,12 @@ footer {
   background-image: url("../images/astronaut.png");
 } */
 
-.work-item {
+/* .work-item {
   position: relative;
   z-index: 1;
-}
+} */
 
-.work-description {
+/* .work-description {
   position: absolute;
   z-index: 2;
   left: 0;
@@ -492,7 +492,7 @@ footer {
   color: var(--white);
 
   background-color: rgba(47, 48, 58, 0.8);
-}
+} */
 
 .team {
   background-color: var(--secondary-bg-color);
@@ -589,19 +589,19 @@ footer {
   --color1: var(--accent-color);
 }
 
-.work-list {
+/* .work-list {
   display: flex;
-}
+} */
 
-.work-list .item {
+/* .work-list .item {
   display: inline-block;
-}
+} */
 
-.work-list .item:not(:nth-child(3n)) {
+/* .work-list .item:not(:nth-child(3n)) {
   margin-right: 30px;
-}
+} */
 
-.work-title,
+/* .work-title, */
 .team-title,
 .customer-title {
   margin-bottom: 50px;
