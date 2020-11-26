@@ -231,10 +231,10 @@ body {
   margin-right: 70px;
 } */
 
-.join-us {
+/* .join-us {
   margin-right: 93px;
-}
-.join-us-text,
+} */
+/* .join-us-text,
 .subscribe-text {
   margin-bottom: 20px;
 
@@ -245,7 +245,7 @@ body {
   text-transform: uppercase;
 
   color: $white;
-}
+} */
 
 /* .join-us .social-link {
   --color1: $white;
@@ -255,7 +255,7 @@ body {
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } */
 
-.subscribe-input {
+/* .subscribe-input {
   width: 358px;
   padding: 16px;
   color: $white;
@@ -272,16 +272,16 @@ body {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
-}
+} */
 
-.subscribe {
+/* .subscribe {
   margin-right: auto;
-}
+} */
 
-.subscribe-wrap {
+/* .subscribe-wrap {
   display: flex;
-}
-.subscribe-btn {
+} */
+/* .subscribe-btn {
   position: relative;
   display: inline-block;
 
@@ -291,18 +291,18 @@ body {
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.subscribe-btn:hover,
+/* .subscribe-btn:hover,
 .subscribe-btn:focus,
 .subscribe-btn:hover .icon-send,
 .subscribe-btn:focus .icon-send {
   color: $accent-color;
   background-color: $white;
   --color2: $accent-color;
-}
+} */
 
-.icon-send {
+/* .icon-send {
   position: absolute;
 
   top: 50%;
@@ -310,7 +310,7 @@ body {
   transform: translateY(-50%);
 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* .hero-title, */
 /* .hero-button {
