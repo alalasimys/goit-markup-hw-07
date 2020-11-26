@@ -11,14 +11,9 @@
 
   border-radius: 50%;
 
-  &:hover,
-  &:focus {
+  .team &:hover,
+  .team &:focus {
     background-color: $accent-color;
-  }
-
-  &:hover .social-icon,
-  &:focus .social-icon {
-    --color1: $white;
   }
 
   .team & {
@@ -27,10 +22,19 @@
     @include transition(background-color);
   }
   .join-us & {
-    --color1: $white;
+    fill: $white;
     background-color: rgba(255, 255, 255, 0.1);
 
     @include transition(color);
     @include transition(background-color);
+  }
+}
+
+.social-icon {
+  fill: #afb1b8;
+
+  .social-link:hover &,
+  .social-link:focus & {
+    fill: $white;
   }
 }

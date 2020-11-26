@@ -574,10 +574,10 @@ footer {
   background-color: var(--accent-color);
 } */
 
-.social-link:hover .social-icon,
+/* .social-link:hover .social-icon,
 .social-link:focus .social-icon {
   --color1: var(--white);
-}
+} */
 
 .customer-link:hover,
 .customer-link:focus {
